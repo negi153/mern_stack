@@ -1,0 +1,31 @@
+Web development - 
+    - website
+        - static content
+        - read only (blogs, wiki)
+    - web app
+        - dynamic content
+        - user interaction
+
+web application 
+- front end / ui --> html/css/js/react --> front end developer
+- back end -> brain of web app --> node js --> backend developer
+- Database layer --> sql/nosql --> mongo db
+
+full stack developer --> front end + back end + database layer
+
+MERN Stack -->
+M - Mongo db
+E - express.js
+R - react
+N - Node js
+
+MEAN stack -->
+M - Mongo db
+E - express.js
+A - Angular
+N - Node js
+
+MEAN and MERN stacks are popular technology stacks for web application development.
+The main difference is that MEAN uses Angular as its front-end framework, 
+while MERN uses React Js for its UI.
+MEAN is more popular for enterprise-level architecture, while MERN is more popular for smaller applications.
