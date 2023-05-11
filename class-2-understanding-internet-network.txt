@@ -1,1 +1,66 @@
-https://www.youtube.com/watch?v=aRUhd1Wd3Sw&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=2 --> need to start
+Network -> a system where multiple devices are connected to each other(eg. laptop connected to printer, hadphone, tv is also a network)
+            network can be wired or wireless
+            in network we can do below things - 
+                communication
+                resource sharing
+                converstation/mgs
+Type of network - 
+    1. LAN (local area netwok) - network in a small area (eg. room, building)
+    2. MAN (matropolitan area network) - network spread over two cities/states ( eg. pubjab connected with delhi,haryana)
+    3. WAN (wide are network) - network spread over contries (india connected with nepal,australia)
+
+Internet - global system in which devices,machines are interconnected. it is network of networks. billions of devices are connected
+
+www (world wide web)  - interconnected documment and resources exist in it. we can access all these via internet
+www is a subset of internet
+
+Ip address - address of devices present on internet. due to this, devices can communicate with each other on internet
+
+browser - tool to access docs, resources, website , webpage on internet
+
+browser engine -  to run web related application we need brower engine. backbone of browser
+
+Q. find the browser engine of chrome, safari? 
+    ans - chrome - Blink
+            safari - WebKit engine
+            
+
+client -> machine that request some data from other machine
+server -> which processes the request sesnt by client and proceess it and return response
+
+
+client computer  ------------ request -----------> server computer
+    |                                                    |
+    |                                                    |
+    |                                                    |
+    |                                                    |
+    |                                                    |
+    <-----------------------response----------------------
+
+
+client request -> 
+get -> fetch -> to ask for some data
+post -> create -> provide data to server
+put -> update --> to update a data
+delete
+
+client machine --> 
+    1. laptop, pc, mobile
+    2. browser
+    3. app
+    4. CLI
+
+server machine -->
+    1. DB server
+    2. file server
+    3. app server
+    4. web server
+    5. email server
+
+Steps to access www.facebook.com --->
+1. user types www.facebook.com in browser.
+    domain name - www.facebook.com
+2. DNS server convert domain name to IP address ( which is address of facebook server). this process is called DNR(domain name resolution)
+3. request by client sent to facebook server via ip address.
+3. facebook server received the request and process it and return the response to client
+4. user is able to see facebook web UI
