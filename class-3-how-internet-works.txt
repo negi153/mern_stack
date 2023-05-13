@@ -1,0 +1,43 @@
+internet -> interconnected networks of computers and machines. billions of devices connected to each other. also network of networks
+    inter - interconnected
+    net - network
+
+    
+history - 1960- ARPANET -> project to send data from source system to target system in small chunks called packets.
+1980 - DNS / www evolution
+1990 - email /msg/shopping
+2000 - fb  / mobile 
+
+
+ISP - internet service provide (airtel, vi, jio) - it provide ip to machine present on internet.
+
+client -------request------> ISP -------->Internet
+
+packets-small units/chunks of a file 
+protocol - set of rules to create standard communication 
+
+protocol sets -> 
+
+Applicaton  layer -> specific to applicaiton. protocols
+TCP -> port no. (which application to intercat with). this layer add port no. to request
+IP -> this layer add destination ip address
+Hardware -> medium (wireless/wired)
+
+client to server steps-->
+1. client request data from server (that is server ip address)
+2. request willl go to local ISP(internet service provider)
+3. if local ISP will have information regarding target ip of server, then it will send request to that server
+4. if local isp does not know then it will forward ruequest to Regional ISP. if it knows the destination, then it will send requst to server
+    if it doesn't know then it will forward request to NSP(National service provider). it will definitely have target server. 
+    and it will forward request to server finally.
+    and server will send response back
+
+-----------
+* when we request facebook.com from browser, then one process which is called(DNR) (domain name resolution) starts and will ask DNS(Domain name servers) about the corresponding IP address of facebook.com. and that server will provide the IP address corresponding to facebook.com.
+once we have the IP address, then requset goes to ISp, then regional ISP, then NSP then routers then server.
+
+
+protocols->
+1. http
+2. ftp(file transfer protocol)
+3. smtp(simple mail transfer protocol)

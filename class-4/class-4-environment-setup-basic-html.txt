@@ -1,0 +1,17 @@
+html- hypertext markup language
+    it defines the "what" compoenet of website (pharagraph, button)
+    language to define structure   
+
+css - (cascading style sheet) -> it defines the apprearance. colour, size
+
+Js (javascript ) - defines logic. '
+
+<!DOCTYPE html> --> tells that it is html 5
+
+<html> ---> it is tag
+
+<html> content </html> ----> this is html element
+
+<head> --> we store metadata inside "head" tag. head tab components-> title, description, SEO, metadata, stylesheet
+
+<body> --> this contains the data which  we can see in website.
