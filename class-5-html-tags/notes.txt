@@ -1,0 +1,34 @@
+predefined h1 to h6 tags. apart form these if we use h8,h9 etc it will not give error but will behave like paragraph tag
+
+shortcut to crete list -> 
+    type this in vs code -> "ul>li*4" -> it will crete 4 list items
+
+* items in unordered list may be random
+* items in ordered list need to be in sequesnce
+
+Shortcut to create table ->
+    type this in vs code -> "table>(tr>td*3)*4" -> it will crete table structure with 3 columns and 4 rows
+
+<img src="" alt=""> --> here img is a tag and src,alt is attribute or property. alt means alternative (if image is not able to show then go for alt)
+
+shortcut to add content as paragraph in vs code ->
+    type "lorem100" in vs code -> it will insert 100 word 
+
+<html> --> opening or closing itme is a tag
+<html> content ... </html> --> this is element
+
+
+<code> -> tag to show the code
+
+for side bar --> use "aside" tag
+to creat article -> use "article" tag
+to crete  section -> use "section" tag
+
+structural tag ->
+    1. header
+    2. nav
+    3. main
+    4. article
+    5. section
+    6. footer
+    7. aside

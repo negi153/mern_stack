@@ -8,3 +8,5 @@ repo to learn website development
 - prettier
 - live server
     - once installed. on bottom-right section,enable "Go Live" while development
+
+## progress - need to start class 5
