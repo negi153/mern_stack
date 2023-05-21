@@ -1,0 +1,84 @@
+emmet - default vs code plugin to use shortcut to write html code
+emmet documentation - https://docs.emmet.io/
+
+1. p>p>p> --> means
+        <p>
+            <p>
+                <p>
+                    
+                </p>
+            </p>
+        </p>
+
+2. p>img --> image tag inside paragraph tag
+
+3. p>p>p>p>lorem100 --> put 100 words lorem in nested paragraph
+
+4. p>h1 -> heading inside paragraph
+
+5. when we need two tag simultaneusly -> suppose we need article and section tag one after another 
+    type "article+section" and hit enter -> it will create article tag first and then will crete section tag
+
+6. insert content inside paragraph
+    type "p>{this is my content}". and hit enter
+
+7. p#para1 --> it will create an paragraph element with id "para1"
+
+8. p.para2 --> it will create an paragraph element with class "para2"
+
+9. p.para1.para2.para3 --> it will create paragraph with multiple class
+    p.para1.para2.para3{this has multiple class} --> it will create paragraph with multiple class and content "this has multiple class"
+
+10. section>p+p+p --> means we need three paragraph inside section
+    section>p{mango}+p{apple}+p{banana} --> three paragraph inside secition and each have content
+
+11. p*3 --> create 2 paragraph
+
+12. table>(tr>td*4)*3 --> create a table with 3 rows and 4 columns
+
+13. nav>un>(li>a)*4 --> inside nav tag, create unordered list with 4 items and items will be links 
+
+
+symbols- 
+    1. > (greater than) --> nested
+    2. + (plus) --> open multiple at the same time
+    3. {} (curly braces) --> to create custom content
+    4. # (hashtag) --> to create element with id
+    5. . (dot) --> to create element with class 
+    6. * (multiply) --> to create a element multple time
+
+attributes-
+    1. id -> to uniquely identify the element in html
+    2. class -> parent entity. can contain multiple elements(eg. dog is class. and golden retrieve, german shephard is types). changes made to class will reflect everywhere which uses that class
+
+
+div tag -> used for grouping. used to create division. generic container tag. used for wrapping/container
+
+Element -> 
+    1. block
+        - always start from next line
+        - take full space from left to right
+
+        eg. paragraph, div
+    2. inline
+        - doesn't start from next line
+        - take space as per the content
+
+        eg. span
+
+how to convert block element to inline element -> set "display" style to "inline"
+how to convert inline element to block element -> set "display" style to "block"
+
+how to show items of list in horizontal -> set "display" as "inline-block"
+
+
+create bookmark -> 
+    - Bookmarks can be useful if a web page is very long.
+    - To create a bookmark - first create the bookmark, then add a link to it. add id with "#" in href in anchor tag
+    - When the link is clicked, the page will scroll down or up to the location with the bookmark.
+    
+    eg. 
+        <a href="#C4">Jump to Chapter 4</a>
+        <a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+        <h2 id="C4">Chapter 4</h2>
