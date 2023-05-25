@@ -1,0 +1,12 @@
+Table - arrangement of data in form of row and col
+
+table -> create table
+thead -> table heading
+tbody -> contains actual content 
+tfoot -> contains table summarization
+tr -> crete row
+td -> (table data) crete table cell
+th -> create heading
+
+rowspan -> extend a column to multiple rows
+colspan -> extend a row to multiple columns
