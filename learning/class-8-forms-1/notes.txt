@@ -1,0 +1,39 @@
+forms -> a type of datastructure to collect user input data
+
+Tags - 
+form -> to create html form
+input -> checkboxes, text box, radio button, calender etc --> to take input from user
+        * type = "radio" -> to create radio button
+                -> if we want to select only 1 radio button among multiple, then "name" attribute of each radio button should be same.
+        * type="checkbox" -> to crete checkbox
+        * type="text" -> to create text box [default]
+        * type ="date" -> to get calender
+        * type = "submit" -> create a button, and it send all the data from "form" to server 
+                    or we can also specify in "action" attribute of form tag
+        * type="file" -> uploadfile by selecting
+        * image-> we can create image button
+        * password
+        
+
+
+        * to get the data from input tags, we can get with the help of "id"
+        * if we need to give default value to text field, then use "value" attribute
+            <input type="text" value="hello" >  
+                above will create a text box with "default value as <hello>"
+        * "value" attribute will show content on the text input and button input
+        * "paceholder" attribute will show content which will go away as we start entering data
+
+label -> to create labels, increase readability
+        * always include "for" attribute for label tag and it should always contain id of input element
+
+select -> to create drop down
+option -> to create options inside drop down(list,combo box)
+button -> create button
+textArea -> create element to take input multi-line text 
+fieldset -> is used to group many elements inside form. it kind of create multiple section inside form. it will also create a border outside the form.
+if we only give fieldset and don't give the legend then it will only create border
+legend -> is used to give heading/caption for a section which is grouped by "fieldset" inside form. it will give heading on top of fieldset border.
+
+* select-option combo will crete a list box where we can only select 1 item.
+if we want to select multiple item then we have to provide "multiple" in select element
+
