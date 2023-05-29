@@ -1,0 +1,2 @@
+* create number type input -->
+        <input type="number" name="counter" id="counter" min="0" max="50">
