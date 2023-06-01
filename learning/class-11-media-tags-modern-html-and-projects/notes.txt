@@ -1,0 +1,49 @@
+Media tag in html -->
+    1. img
+    2. audio
+        <audio src="song.mp3" controls></audio>
+        - need to write "controls" so that is can be visible
+        - other way to show audio 
+            <audio controls>
+                <source src="songs.mp3" type="audio/mp3">
+            </audio>
+    3. video
+        <video src="mukesh-bungy.mp4" width="500px" height="500px" controls></video>
+        - - need to write "controls" so that we can play video and perform other operations
+
+        - other way to crete video
+            <video controls height="500px" width="500px">
+                <source src="mukesh-bungy.mp4" type="video/mp4">
+            </video>
+
+    4. external website
+
+image -> 
+    loading = "lazy" --> Lazy Loading images is a technique to load images on a web page only when required. This way can improve the page's loading time without reducing the page size. Users can only view its first fold and associated images when they open a website. The images below the first fold need not be loaded right at the beginning.
+
+iframe -> to show other webpage in current page, youtube video
+
+    - to show youtube in iframe -> use below code
+        <iframe src="https://www.youtube.com/watch?v=Ydfhncaep-c"></iframe>
+
+        but this code will not show the video. so we need to modify the youtube url - "replace <watch> with <embed>. replace <?> with </> (slash) and remove <v=>."
+
+        correct code after correct url -> 
+        <iframe src="https://www.youtube.com/embed/Ydfhncaep-c"></iframe>
+
+    - we can set "autoplay" to automatic play the video and also we can set mute (on/off)
+        eg. allow='autoplay'
+                        <iframe src="https://www.youtube.com/embed/46lNjGGT87c?autoplay=1" width="450px" height="250px"></iframe>
+
+        eg. autoplay and mute   
+                        <iframe src="https://www.youtube.com/embed/46lNjGGT87c?autoplay=1&mute=1" width="450px" height="250px"></iframe>
+
+
+
+modern html tags-->
+1. header
+2. nav
+3. footer
+4. main
+5. aside
+
