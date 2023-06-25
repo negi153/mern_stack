@@ -1,0 +1,18 @@
+head tag -> will not be visisoble on web page. it will have SEO (search engine optimixation ) related data
+    title -> reflect on the browser tab of web page
+    fevicon  -> icon on the web page tab is called fevicon
+
+body tag ->  will be visible on webpage
+
+SEO (search engine optimization) - to rank the website on the top --> helped by head tag (specialllly meta tag -> it increase SEO capability)
+
+meta tag ->
+    charset -> defaul to UTF-8 -> support multiple language
+    http-equiv => it says that webpage will be rendered with the latest engine which is standard to all so website looks same to everyone.
+    viewport -> 
+        initial-scale -> default zoom level
+        width=device-width -> tells that take device with as default width of page
+
+    description -> to write the description about the page
+
+    keywords -> it tells that whenever mentioned keyword are requested by user so our page shoudl also show to him
