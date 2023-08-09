@@ -1,0 +1,14 @@
+CSS - cascading style sheets
+    - To style the html content. color/text size / formatting/ etc.
+    - change in appearance
+
+HTML -
+    - skeleton
+    - structure
+    - descriptio
+    - semantics
+
+Type of CSS - 
+    1. inline -> adding style in html tag 
+    2. internal -> adding style content in head tag
+    3. external -> adding another style sheet into html
